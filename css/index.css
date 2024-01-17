@@ -1,0 +1,31 @@
+.mySlides {
+    display:none;
+    border-radius: 30px;
+    position: relative;    
+    top: 25px;
+    margin: auto;
+}
+p{
+    margin-top:10px;
+}
+section{
+    width: 95%;
+    position: relative;
+    margin: auto;
+    top: 125px;
+    padding: 10px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#textoI{
+    position: relative;
+    top: 30px;
+}
+
+section{
+    margin-bottom: 175px;
+}

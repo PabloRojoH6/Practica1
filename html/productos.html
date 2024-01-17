@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/productos.css">
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="../img/iconos/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="../img/iconos/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16"
+            href="../img/iconos/favicon-16x16.png">
+        <title>Migas Amigas</title>
+    </head>
+    <!-- Mostrar la información de contacto con la dirección, el teléfono y un croquis de su ubicación. -->
+
+    <body>
+        <header id="header">
+            <div class="logo">
+                <a href="../Index.html"><img height="70px"
+                        src="../img/iconos/Migas Amigas.png" alt /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="#">Productos</a>
+                    </li>
+                    <li>
+                        <button id="langButton" onclick="changeLang()">Português</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <a href="panaderia.html">
+                <div class="producto">
+                    <img src="../img/panaderia/pan.jpg" alt width="100%"
+                        height="100%">
+                    <div class="info">
+                        <h1 id="h1Prod"></h1>
+                        <p id="p1Prod"></p>
+                    </div>
+                </div>
+            </a>
+            <a href="pasteleria.html">
+                <div class="producto">
+                    <img src="../img/bolleria/bollo.jpg" alt width="100%"
+                        height="100%">
+
+                    <div class="info">
+                        <h1 id="h2Prod"></h1>
+                        <p id="p2Prod"></p>
+                    </div>
+                </div>
+            </a>
+            <a href="empanadas.html">
+                <div class="producto">
+                    <img src="../img/empanadas/empanada.jpg" alt width="100%"
+                        height="100%">
+                    <div class="info">
+                        <h1 id="h3Prod"></h1>
+                        <p id="p3Prod"></p>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <script src="../js/global.js"></script>
+    </body>
+
+</html>

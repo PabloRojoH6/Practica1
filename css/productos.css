@@ -1,0 +1,31 @@
+.producto{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius:35px;
+    background-color: #c08937;
+    border: 2px ridge #4e2b00;
+}
+.producto img{
+    height: 100%;
+    width: 35%;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+}
+.info{
+    width: 70%;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+section{
+    margin-bottom: 175px;
+}

@@ -1,0 +1,16 @@
+.contacto{
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    padding: 10px;
+}
+.info{
+    width: 30%;
+    text-align: center;
+    padding: 5% 0px;
+}
+.mapa{
+    width: 70%;
+}
