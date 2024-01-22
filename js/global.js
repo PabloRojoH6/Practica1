@@ -89,7 +89,7 @@ let p5Emp = document.getElementById("p5Emp");
 // Inicializo cada parte del html dependiendo de la ruta
 // Exceptuando el botón que es común a todos los html
 langButton.innerHTML = currentLenguage.lang;
-if(location.href.includes("/Index.html")){
+if(location.href.includes("/index.html")){
     htmlWelcome.innerHTML = currentLenguage.welcome;
     p1I.innerHTML = currentLenguage.p1I;
     p3I.innerHTML = currentLenguage.p3I;
@@ -151,7 +151,7 @@ if(location.href.includes("/Index.html")){
 
 function update() {
     langButton.innerHTML = currentLenguage.lang;
-    if(location.href.includes("/Index.html")){
+    if(location.href.includes("/index.html")){
         htmlWelcome.innerHTML = currentLenguage.welcome;
         p1I.innerHTML = currentLenguage.p1I;
         p2I.innerHTML = currentLenguage.p2I;
